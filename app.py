@@ -32,8 +32,8 @@ class LinkedinBot:
         # Enter the user's email and password
         email_field = self.driver.find_element(By.ID, "session_key")
         password_field = self.driver.find_element(By.ID, "session_password")
-        email_field.send_keys("mohibahmed278@gmail.com")
-        password_field.send_keys("vzms?$pB6DQieQu")
+        email_field.send_keys("YOUR_EMAIL")
+        password_field.send_keys("YP_PASSWORD")
 
         # Submit the login form
         password_field.submit()
